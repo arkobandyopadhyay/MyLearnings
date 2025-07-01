@@ -1,0 +1,42 @@
+git learnings.
+-> version control system -> centralized and distributed
+-> distributed (git)
+-> git commands
+   ->git --version (to check the version of the git)
+   ->git config --global user.name "Arko Bandyopadhyay"
+   ->git config --global user.email "arkobandyopadhyay36@gmail.com"
+   ->git config --global -e (to edit the config file)
+   ->git config --global core.editor "code --wait"
+   ->git config --global core.autocrlf input (for macOS , \n problem )
+   ->git config --global core.autocrlf true (for windows , \r\n problem) 
+   ->git config -help
+   ->git init (initialized empty git repository in my current project file path)
+   ->git status (this command is used to show modified files in working directory ; staged for your next commit)
+   ->git add file.text file2.text    or git add .  (this command is used to add the changes into stagging area)
+   ->git commit -m "write the relevant message like fixed the buy or initial commit" ( we can also open the git commit file and write the short description of the commit message)
+   ->git commit -a -m "message" (this command directly does both the add as well as the commit command)
+   ->git rm file.txt (this command removes the file.text from the git repository)
+   ->git rm --cached -r file.txt (this command removes the file from the stagging area)
+   ->git mv file.txt main.js (this command is used to rename or move the files)
+   ->.gitignore (this concept ignores the files which developer doesn't want to commit in the repository as well as remember one thing that this concept only works when user has not committed a file before using the git ignore concept)
+   ->git diff --staged (this command is used to show the diff of what is staged but not yet committed)
+   ->git diff (this command is used to show the diff of what is changed but not staged)
+   ->git log(this command is used to track the history)
+   ->git show HEAD~1 (this command shows the second commit status from top)
+   ->git restore --staged file1.js
+   ->git restore --source=HEAD~1 file.js (this command restores the file.js version from the commit(HEAD~1))
+   ->git clone [url] (this command is used to retrieve an entire repository from a hosted location via URL)
+   ->git reset [file] (this command is used to unstage a file while retaining the changes in my working directory)
+   ->git branch (this command show the branches present in my current git repo , a * will appear before my current active branch name)
+   ->git branch [branch-name] (this command creates the new branch at the current commit)
+   ->git checkout [branch-name] (this command is used to shift to the another branch)
+   ->git checkout -b [branch-name] (this command is used to check out the current branch and move to a new branch i.e create and check out )
+   ->git merge [branch] (this command is used to merge the specified branch's history into the current line)
+   ->git remote add [alias][url] (this command is used to add the another repository file into my local repository)
+   ->git fetch [alias] (this command is used to fetch down all the branches from that Git remote)
+   ->git merge [alias]/[branch] (this command is used to merge a remote branch into your current branch to bring it up to date)
+   ->git push [alias][branch] (this command is used to transmit local branch commits to the remote repository branch)
+   ->git pull (this command is used to fetch and merge any commits from the tracking remote branch)
+   ->git rebase [branch] (apply any commits of current branch ahead of specified one)
+   ->git reset --hard [commit] (clear stagging area , rewrite working tree from specified commit)
+
