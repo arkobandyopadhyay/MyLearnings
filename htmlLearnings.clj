@@ -1,0 +1,50 @@
+Hyper text markup language 
+-> Used to make the structure of a web page
+-> The component used to design the structure of websites are called HTML tags
+-> <!DOCTYPE html> (tells the browser that we are using html5)
+-> <html> </html> (root of an html document)
+-> <head></head> , <body></body> , <footer></footer>
+-> <!-- This a HTML comment -->
+-> HTML is not a case sensitive
+-> HTML attributes tag is used to add more information to the tag like <html lang="en">
+-> Heading tag is used to display headings in HTML (h1 , h2 , h3 , h4 , h5 , h6)
+-> Paragraph tag is used to add the Paragraphs in HTML (<p></p>)
+-> Anchor tag is used to add the links to our web page (<a href=url link>Name</a>)
+-> Image tag is used to add the image to our web page (<img src="/image.png" alt="Random Image">) (we can also use height , width as an attributes)
+-> Br tag is used to add next line(line break) to our web page (<br>)
+-> Bold , Itallic , and Underline tags is used to highlight text in our page(<b></b> , <i></i> , <u></u>)
+-> Big , Small tag is used to display the text as big or small in our page (<big></big> , <small></small>)
+-> Hr tag is used to display horizontal ruler , used to separate the content in our page (<hr>)
+-> subscript & superscript tag is used to display the subscript & superscript content in our page (<sub></sub> , <sup></sup>)
+-> Pre tag is used to display the text in same order without changing or ignoring the spaces and line breaks (<pre> </pre>)
+-> Inside our body tag we can have section tag , article tag , aside tag (<section> , <article> , <aside>)
+-> <a href="https://google.com" target="_main">Google</a> (here target attributes tells to open a new tab when the link is clicked)
+-> <a href="https://google.com"><img src="pic"></a>
+-> Div tag is used to create a container inside other html element tags is used(<div></div>)
+-> propular div tags -- <div> , <address> , <footer> , <header> , <li> , <ol> , <table> , <ul> , etc
+-> Span tag is used for a container used for other HTML elements , basically inline element
+-> List in HTML -- unordered list(<ul></ul>) & ordered list (<ol></ol>)
+-> Tables in HTML used to represent real life table data (<table> </table>)
+   -> <tr> used to display table row
+   -> <td> used to display table data
+   -> <th> used to display table header
+   -> <caption> used to display the whole table name
+   -> <thead> used to wrap table head
+   -> <tbody> used to wrap table body
+   -> <tfoot> used to wrap table foot
+   -> colspan="n" (this attribute is used to create cells which spans over multiple columns)
+-> Form in HTML used to collect data from the user (<form></form>)
+   -> action attribute is used to define the action that needs to be performed when a form is submitted
+   -> <input type="text" placeholder="Enter">
+   -> <label> </label>
+   -> <input type="radio" value="class X" name="class" id="id1">
+   -> <input type="checkbox" value="class X" name="class" id="id1">
+-> concept of class & Id as a attribute
+-> <textarea name="feedback" id="feedback" placeholder="Please add Feedback"></textarea>
+-> <button></button>
+-> <select name="city" id="city">
+      <option value="Delhi">Delhi</option>
+    </select>
+-> iframe tag is used show website inside website (<iframe src="link">Link</iframe>)
+-> video tag is used show video inside our web page (<video src="myVid.mp4">MyVideo</video>)
+   -> attributes present in the video tag are controls , height , width , loop , autoplay
